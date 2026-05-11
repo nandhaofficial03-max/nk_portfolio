@@ -1,0 +1,27 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1100" rx="58" fill="#EEE3CF"/>
+  <path d="M0 0H900V1100H0V0Z" fill="url(#bg)"/>
+  <circle cx="450" cy="358" r="178" fill="#b75a35" opacity=".28"/>
+  <circle cx="450" cy="338" r="142" fill="#7E5F40" opacity=".2"/>
+  <path d="M246 836C272 681 350 602 450 602C550 602 628 681 654 836C664 895 620 948 560 948H340C280 948 236 895 246 836Z" fill="#6D563C" opacity=".76"/>
+  <path d="M310 834C330 725 384 674 450 674C516 674 570 725 590 834C596 866 571 896 538 896H362C329 896 304 866 310 834Z" fill="#F9F4EA" opacity=".25"/>
+  <path d="M252 254C307 162 386 116 489 118C602 120 678 178 721 292" stroke="#b75a35" stroke-width="2" opacity=".45"/>
+  <path d="M183 763C143 604 170 455 263 315C355 176 477 91 629 60" stroke="#F9F4EA" stroke-width="2" opacity=".32"/>
+  <path d="M216 868C371 969 535 978 708 896" stroke="#b75a35" stroke-width="2" opacity=".38"/>
+  <g filter="url(#shadow)">
+    <rect x="248" y="204" width="404" height="520" rx="202" fill="#F8F1E4" fill-opacity=".28"/>
+    <rect x="263" y="219" width="374" height="490" rx="187" stroke="#FFF8EA" stroke-opacity=".58" stroke-width="30"/>
+  </g>
+  <text x="450" y="505" text-anchor="middle" fill="#5D4630" font-family="Georgia, 'Times New Roman', serif" font-size="150" font-weight="700" letter-spacing="12">NK</text>
+  <text x="450" y="575" text-anchor="middle" fill="#81623E" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="7">SAP MM</text>
+  <defs>
+    <linearGradient id="bg" x1="65" y1="82" x2="824" y2="999" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9ED"/>
+      <stop offset=".45" stop-color="#E4D0AF"/>
+      <stop offset="1" stop-color="#b75a35"/>
+    </linearGradient>
+    <filter id="shadow" x="200" y="156" width="500" height="616" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="30" stdDeviation="30" flood-color="#6D563C" flood-opacity=".22"/>
+    </filter>
+  </defs>
+</svg>
