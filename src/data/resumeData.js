@@ -6,8 +6,8 @@ export const profile = {
   location: 'Bangalore, India',
   phone: '+91 89253 37133',
   email: 'nandhaofficial03@gmail.com',
-  linkedin: '',
-  github: '',
+  linkedin: 'https://www.linkedin.com/in/nandha-kumar-u-a90a31250',
+  github: 'https://github.com/NandhakumarU',
   resumePdf: '/assets/Nandha-Fullstack-Developer.pdf',
   profileImage: '/assets/nandha-profile.jpeg',
   summary:
@@ -108,7 +108,12 @@ export const education = [
   },
 ];
 
-export const certifications = [];
+export const certifications = [
+  'Udemy Cloud Practitioner',
+  'MSME Python Programming Certification',
+  'Accenture Digital Skills: User Experience',
+  'Microsoft Excel Certification – Great Learning',
+];
 
 export const projects = [
   {

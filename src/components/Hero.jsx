@@ -26,7 +26,9 @@ export default function Hero() {
         </a>
       </div>
       <div className="hero-visual glass-panel">
-        <img src={profile.profileImage} alt={`${profile.name} professional profile`} />
+        <div className="hero-image-frame">
+          <img src={profile.profileImage} alt={`${profile.name} professional profile`} />
+        </div>
         <div className="profile-badge">
           <span>Available for Full Stack Developer roles</span>
         </div>
