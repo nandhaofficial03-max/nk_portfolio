@@ -1,29 +1,29 @@
-import { Award, Boxes, Cloud, Code2 } from 'lucide-react';
+import { Boxes, Cloud, Code2, Sparkles } from 'lucide-react';
 import React from 'react';
 import Hero from '../components/Hero.jsx';
 import SectionHeader from '../components/SectionHeader.jsx';
-import { certifications, experience, projects, skills } from '../data/resumeData.js';
+import { experience, projects, skills } from '../data/resumeData.js';
 
 const focusCards = [
   {
     icon: Boxes,
-    title: 'SAP MM Operations',
-    text: 'Procurement, inventory management, PR, PO, GR, and invoice verification workflows.',
+    title: 'Full Stack Development',
+    text: 'End-to-end web applications with React.js, Next.js, Node.js, and Express.js.',
   },
   {
     icon: Cloud,
-    title: 'Cloud Mindset',
-    text: 'AWS fundamentals with hands-on architecture project experience using EC2, RDS, and load balancing.',
+    title: 'AWS & Deployment',
+    text: 'Hands-on AWS experience with EC2, RDS, load balancing, Linux, and three-tier architecture.',
   },
   {
     icon: Code2,
-    title: 'Frontend Skills',
-    text: 'React.js and JavaScript experience for building clean, responsive web interfaces.',
+    title: 'Frontend Engineering',
+    text: 'Reusable React.js components, responsive interfaces, and REST API integration.',
   },
   {
-    icon: Award,
-    title: 'Certified Learner',
-    text: `${certifications.length} certifications across SAP, AWS, Python, and Excel.`,
+    icon: Sparkles,
+    title: 'AI & LLM Integration',
+    text: 'RAG pipelines with vector retrieval, OpenAI, and OpenRouter for context-aware responses.',
   },
 ];
 
@@ -34,8 +34,8 @@ export default function Home() {
       <section className="content-section">
         <SectionHeader
           eyebrow="Profile"
-          title="Built for reliable supply-chain execution"
-          text="A concise portfolio shaped from resume details, highlighting SAP MM process knowledge, technical adaptability, and project work."
+          title="Full stack development with an AI edge"
+          text="A concise portfolio built from my resume, highlighting full stack development, cloud fundamentals, and hands-on AI integration work."
         />
         <div className="focus-grid">
           {focusCards.map(({ icon: Icon, title, text }) => (
@@ -52,8 +52,8 @@ export default function Home() {
           <span className="eyebrow">Current Experience</span>
           <h2>{experience[0].role}</h2>
           <p>
-            At {experience[0].company}, Nandha worked with procurement and inventory operations, maintaining
-            material availability and supporting the purchase cycle from requisition through finance coordination.
+            At {experience[0].company}, Nandha builds responsive web applications with React.js and Node.js,
+            develops RESTful APIs backed by MongoDB and MySQL, and implements RAG pipelines using OpenAI and OpenRouter.
           </p>
         </div>
         <div className="glass-panel home-panel">

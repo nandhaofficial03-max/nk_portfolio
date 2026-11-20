@@ -45,10 +45,22 @@ export default function Footer() {
         <div>
           <h3>Social</h3>
           <div className="social-links">
-            <a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <a
+              href={profile.linkedin || undefined}
+              target={profile.linkedin ? '_blank' : undefined}
+              rel={profile.linkedin ? 'noreferrer' : undefined}
+              aria-label="LinkedIn"
+              aria-disabled={!profile.linkedin}
+            >
               <ExternalLink size={18} />
             </a>
-            <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub">
+            <a
+              href={profile.github || undefined}
+              target={profile.github ? '_blank' : undefined}
+              rel={profile.github ? 'noreferrer' : undefined}
+              aria-label="GitHub"
+              aria-disabled={!profile.github}
+            >
               <Code2 size={18} />
             </a>
           </div>

@@ -10,7 +10,7 @@ export default function Resume() {
       <SectionHeader
         eyebrow="Resume"
         title="Experience and credentials"
-        text="A clear view of SAP MM experience, education, skills, tools, and certifications from the resume."
+        text="A clear view of full stack experience, education, skills, tools, and certifications from the resume."
       />
 
       <ResumeSection
@@ -76,11 +76,15 @@ export default function Resume() {
       </ResumeSection>
 
       <ResumeSection title="Certifications">
-        <ul className="cert-list">
-          {certifications.map((certification) => (
-            <li key={certification}>{certification}</li>
-          ))}
-        </ul>
+        {certifications.length > 0 ? (
+          <ul className="cert-list">
+            {certifications.map((certification) => (
+              <li key={certification}>{certification}</li>
+            ))}
+          </ul>
+        ) : (
+          <p className="lead">No certifications listed currently.</p>
+        )}
       </ResumeSection>
     </div>
   );

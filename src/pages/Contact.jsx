@@ -18,7 +18,7 @@ export default function Contact() {
       <SectionHeader
         eyebrow="Contact"
         title="Let’s connect"
-        text="Reach out for SAP MM, procurement, inventory, cloud, or frontend opportunities."
+        text="Reach out for full stack development, React.js, Node.js, cloud, or AI integration opportunities."
       />
       <section className="contact-layout">
         <div className="contact-cards">

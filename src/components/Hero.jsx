@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="hero section-pad">
       <div className="hero-copy">
-        <span className="eyebrow">Procurement • Inventory • SAP MM</span>
+        <span className="eyebrow">Full Stack • React.js • AI & LLM</span>
         <h1>{profile.name}</h1>
         <p className="hero-title">{profile.title}</p>
         <p className="hero-summary">{profile.summary}</p>
@@ -28,7 +28,7 @@ export default function Hero() {
       <div className="hero-visual glass-panel">
         <img src={profile.profileImage} alt={`${profile.name} professional profile`} />
         <div className="profile-badge">
-          <span>Available for SAP MM roles</span>
+          <span>Available for Full Stack Developer roles</span>
         </div>
       </div>
       <div className="stats-strip glass-panel">
